@@ -1,16 +1,16 @@
-# [PHP] file to base64
+# [PHP] 将文件转化为 base64 字符文件
 
-[中文说明](https://github.com/wuyumin/File2base64/blob/master/README-CN.md)
+[English README](https://github.com/wuyumin/File2base64/blob/master/README.md)
 
-base64 files are used for embedding in web pages.
+base64 字符文件一般用于直接嵌入网页文件中。
 
-### usage:
+### 用法:
 
-install in Composer
+用 Composer 安装
 
 `composer require wuyumin/file2base64`
 
-php code
+php 代码
 ```php
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -23,14 +23,14 @@ $file2base64->toFile('file2base64.png', 'file2base64.txt');
 # echo $file2base64->toBase64('file2base64.png');
 ```
 
-### result:
+### 结果:
 
-base64 file string
+base64 字符文件
 ```html
 data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ```
 
-### HTML code use like this:
+### HTML 代码这样使用:
 
 html code
 ```html
