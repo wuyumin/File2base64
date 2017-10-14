@@ -5,7 +5,10 @@
         "file2base64",
         "filetobase64",
         "file to base64",
-        "base64"
+        "base64",
+        "laravel",
+        "Yumin Wu",
+        "wuyumin"
     ],
     "homepage": "https://github.com/wuyumin/File2base64",
     "type": "library",
@@ -26,6 +29,16 @@
     "autoload": {
         "psr-4": {
             "File2base64\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "File2base64\\File2base64\\Laravel\\ServiceProvider"
+            ],
+            "aliases": {
+                "File2base64": "File2base64\\File2base64\\Laravel\\Facade"
+            }
         }
     }
 }
