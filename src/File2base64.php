@@ -2,20 +2,6 @@
 
 namespace File2base64;
 
-// for example:
-// require __DIR__ . '/../vendor/autoload.php';
-// use File2base64\File2base64;
-// $file2base64 = new File2base64();
-// $file2base64 = new File2base64(['bmp' => 'image/bmp']);
-// $file2base64->toFile('file2base64.png', 'file2base64.txt');
-// echo $file2base64->toBase64('file2base64.png');
-
-/**
- * File to base64.
- * (c) Yumin Wu
- * github: https://github.com/wuyumin/File2base64
- */
-
 class File2base64
 {
     /**
