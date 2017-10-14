@@ -3,3 +3,4 @@ Thumbs.db
 *.swp
 
 /.idea/
+.php_cs.cache
