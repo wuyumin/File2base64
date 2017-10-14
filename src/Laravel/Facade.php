@@ -6,7 +6,7 @@
  * github: https://github.com/wuyumin
  */
 
-namespace File2base64\File2base64\Laravel;
+namespace File2base64\Laravel;
 
 use File2base64\File2base64;
 

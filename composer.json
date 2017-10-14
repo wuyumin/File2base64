@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "File2base64\\File2base64\\Laravel\\ServiceProvider"
+                "File2base64\\Laravel\\ServiceProvider"
             ],
             "aliases": {
-                "File2base64": "File2base64\\File2base64\\Laravel\\Facade"
+                "File2base64": "File2base64\\Laravel\\Facade"
             }
         }
     }
