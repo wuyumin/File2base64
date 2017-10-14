@@ -1,0 +1,31 @@
+{
+    "name": "wuyumin/file2base64",
+    "description": "File to base64.",
+    "keywords": [
+        "file2base64",
+        "filetobase64",
+        "file to base64",
+        "base64"
+    ],
+    "homepage": "https://github.com/wuyumin/File2base64",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yumin Wu",
+            "homepage": "https://github.com/wuyumin"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "File2base64\\": "src/"
+        }
+    }
+}
