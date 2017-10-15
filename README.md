@@ -45,3 +45,5 @@ html code
 ```html
 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
 ```
+
+web page demo: [All in one page with base64 audio,no web link with audio file](https://wuyumin.github.io/File2base64/demo/allinone.html)

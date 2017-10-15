@@ -45,3 +45,5 @@ html code
 ```html
 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
 ```
+
+网页示例: [网页和 base64 编码的声音都在一个页面里，不需要外链声音文件](https://wuyumin.github.io/File2base64/demo/allinone.html)
