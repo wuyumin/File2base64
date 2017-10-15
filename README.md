@@ -4,7 +4,7 @@
 
 base64 files are used for embedding in web pages.
 
-### usage:
+### Usage:
 
 install in Composer
 
@@ -23,7 +23,16 @@ $file2base64->toFile('file2base64.png', 'file2base64.txt');
 # echo $file2base64->toBase64('file2base64.png');
 ```
 
-### result:
+### Laravel Framework
+（tips：Laravel 5.5+ can ignore step 2、3，version 5.5+ support to register automatically）
+1. Composer install `composer require wuyumin/file2base64`
+2. (ServiceProvider)add the follow line to the section `providers` of `config/app.php`  
+  `File2base64\Laravel\ServiceProvider::class,`
+
+3. (Facades)add the follow line to the section `aliases` of `config/app.php`(optional)  
+  `'File2base64' => File2base64\Laravel\Facade::class,`
+
+### Result:
 
 base64 file string
 ```html

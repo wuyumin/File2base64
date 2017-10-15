@@ -3,7 +3,7 @@
 /*
  * This file is part of the wuyumin/file2base64.
  * (c) Yumin Wu
- * github: https://github.com/wuyumin
+ * Github: https://github.com/wuyumin
  */
 
 namespace File2base64\Laravel;

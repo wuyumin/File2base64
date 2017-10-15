@@ -23,6 +23,15 @@ $file2base64->toFile('file2base64.png', 'file2base64.txt');
 # echo $file2base64->toBase64('file2base64.png');
 ```
 
+### Laravel 框架使用
+（注：Laravel 5.5+ 可忽略2、3步，5.5+ 版本支持自动注册了）
+1. Composer 安装 `composer require wuyumin/file2base64`
+2. 添加服务提供者（ServiceProvider）到 config/app.php 中的 providers 处  
+  `File2base64\Laravel\ServiceProvider::class,`
+
+3. 添加门面（Facades）到 config/app.php 中的 aliases 处（可选）  
+  `'File2base64' => File2base64\Laravel\Facade::class,`
+
 ### 结果:
 
 base64 字符文件
