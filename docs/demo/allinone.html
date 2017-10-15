@@ -17,6 +17,7 @@ h3{font-size: 100%;font-weight: normal;}
 .clear:after{display: block;clear: both;content: "";visibility: hidden;height: 0;}
 .clear{zoom: 1;}
 #wrap{max-width: 640px;background: #fff;}
+#play{height: 25px;width: 100px;text-align: center;font-size: 18px;}
 #audioId{display: none;}
 .content{text-align: center;}
 </style>
@@ -30,6 +31,7 @@ h3{font-size: 100%;font-weight: normal;}
             Your browser does not support audio.
         </audio>
         <br>
+        <button type="button" id="play">PLAY</button><br><br>
         All in one page with base64 audio.<br>
         Please view this page source code.<br><br>
         ↓<br>
@@ -190,10 +192,15 @@ var playAudio = function(){
     audioId.play();
 };
 playAudio();
+// iOS need user click for init
+var play = document.getElementById('play');
+play.addEventListener('click', function(){
+    throttle(playAudio);
+});
 window.onscroll = function(){
     throttle(playAudio);
 };
-document.addEventListener('touchstart', function(){
+document.addEventListener('touchmove', function(){
     throttle(playAudio);
 });
 // wechat
