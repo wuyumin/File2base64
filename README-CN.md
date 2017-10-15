@@ -47,3 +47,11 @@ html code
 ```
 
 网页示例: [网页和 base64 编码的声音都在一个页面里，不需要外链声音文件](https://wuyumin.github.io/File2base64/demo/allinone.html)
+
+### 支持类型：
+
+.png、.jpg、.jpeg、.gif、.ico、.mp3、.ogg
+
+你可以自己扩展类型，在初始化对象使用数组就可以了。
+
+`$file2base64 = new File2base64(['bmp' => 'image/bmp']);`

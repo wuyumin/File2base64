@@ -14,13 +14,13 @@ class File2base64
      * @var array
      */
     protected $typeArray = [
-        'mp3' => 'audio/mpeg',
-        'ogg' => 'audio/ogg',
         'png' => 'image/png',
         'jpg' => 'image/jpeg',
         'jpeg' => 'image/jpeg',
         'gif' => 'image/gif',
         'ico' => 'image/x-icon',
+        'mp3' => 'audio/mpeg',
+        'ogg' => 'audio/ogg',
     ];
 
     /**

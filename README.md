@@ -47,3 +47,11 @@ html code
 ```
 
 web page demo: [All in one page with base64 audio,no web link with audio file](https://wuyumin.github.io/File2base64/demo/allinone.html)
+
+### Supported Type:
+
+.png、.jpg、.jpeg、.gif、.ico、.mp3、.ogg
+
+You can init for other type use array.
+
+`$file2base64 = new File2base64(['bmp' => 'image/bmp']);`
